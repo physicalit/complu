@@ -23,7 +23,19 @@
 <a id="welcome-to-complu" class="anchor" href="#welcome-to-complu" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to Complu.</h3>
 
 <p>The name is formed from two different words - Communication Plugin</p>
-
+<iframe id="forum_embed"
+  src="javascript:void(0)"
+  scrolling="no"
+  frameborder="0"
+  width="900"
+  height="700">
+</iframe>
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/forum/embed/?place=forum/complu-project'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script> 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/physicalit/complu">Complu</a> is maintained by <a href="https://github.com/physicalit">physicalit</a>.</span>
 
@@ -42,6 +54,7 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
+
 
   </body>
 </html>
