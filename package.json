@@ -1,0 +1,17 @@
+{
+  "title": "Communication Plugin between Mozilla Firefox and Thunderbird",
+  "name": "mozilla-complu",
+  "version": "0.0.1",
+  "description": "This plugin creates a way for Thunderbird to communicate with Firefox establishing a connection between those two!",
+  "main": "index.js",
+  "author": "Mihuleac Sergiu",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1",
+    "thunderbird": ">=38.0a1"
+  },
+  "license": "GPLv3",
+  "keywords": [
+    "jetpack"
+  ]
+}
