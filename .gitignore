@@ -1,5 +1,6 @@
 *.xpi
 test
+node_modules
 *.com
 *.class
 *.dll

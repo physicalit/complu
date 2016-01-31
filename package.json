@@ -13,5 +13,11 @@
   "license": "GPLv3",
   "keywords": [
     "jetpack"
-  ]
+  ],
+  "scripts": {
+    "test": "vows --spec"
+  },
+  "dependencies": {
+    "vows": "^0.8.1"
+  }
 }
