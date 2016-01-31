@@ -10,7 +10,7 @@
     "fennec": ">=38.0a1",
     "thunderbird": ">=38.0a1"
   },
-  "license": "GPLv3",
+  "license": "GPL-3.0",
   "keywords": [
     "jetpack"
   ],
